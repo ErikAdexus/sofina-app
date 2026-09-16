@@ -1,0 +1,67 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# --- Secretos y config local (repo público -- portafolio) ---
+# Ver auditoría: keystore de firma release, config de Firebase generada
+# por plataforma, y el token real de apiperu.dev usado para validar DNI.
+key.properties
+*.jks
+*.keystore
+**/google-services.json
+**/GoogleService-Info.plist
+dart_defines.json
+.env
+.env.*
+*.local.properties
+local.properties
+
+# Config local de Claude Code (settings.local.json) -- referencia rutas de
+# esta máquina y no aporta nada a quien clone el repo; no versionar.
+.claude/
+
+# Carpetas generadas estándar que no dependen ya de /build/ o /.dart_tool/
+# de arriba (defensivo por si se agregan Cloud Functions u otro build
+# Android fuera del árbol estándar de Flutter más adelante).
+**/.gradle/
+**/node_modules/

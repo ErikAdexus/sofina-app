@@ -1,0 +1,37 @@
+name: proyectocitas_reparado
+description: "Sofina Nail Salon"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  firebase_core: ^4.7.0
+  firebase_storage: ^13.3.0
+  file_picker: ^8.3.2
+  firebase_database: ^12.3.0
+  firebase_auth: ^6.4.0
+  geolocator: ^13.0.2
+  url_launcher: ^6.3.1
+  firebase_messaging: ^16.4.3
+  firebase_app_check: ^0.4.7
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/servicios/
