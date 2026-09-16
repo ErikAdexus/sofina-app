@@ -11,10 +11,9 @@ Aplicación de agendamiento de citas para servicios a domicilio (belleza y biene
 
 ## Capturas
 
-<!-- Reemplaza estos placeholders con tus capturas reales del celular -->
-| Registro de especialista (wizard) | Detalle de cita |
-|---|---|
-| ![Wizard de registro](docs/screenshots/wizard-registro.png) | ![Detalle de cita](docs/screenshots/detalle-cita.png) |
+| Mis citas | Detalle de cita | Asignar especialista |
+|---|---|---|
+| ![Mis citas](docs/screenshots/01_mis_citas.png) | ![Detalle de cita](docs/screenshots/03_detalle_cita.png) | ![Asignar especialista](docs/screenshots/04_asignar_especialista.png) |
 
 ## Funcionalidades principales
 
